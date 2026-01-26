@@ -1,33 +1,71 @@
-# Contributing to OS-Pins
+# 🤝 Contributing to OS Pins
 
-Thanks for your interest in contributing! Please follow these guidelines to keep work aligned and avoid duplication.
+Thank you for your interest in contributing to **OS Pins**!  
+We welcome contributors of all experience levels. Please follow these guidelines to keep the project organized and collaborative.
 
-## How to Contribute
+---
 
-- **Work on existing issues first.**
-- **Only open new issues for real, reproducible bugs** that need to be fixed.
-- **Before starting work**, comment on the issue to confirm you’re picking it up.
-- **Wait for assignment or maintainer confirmation** before beginning significant work.
+## 📌 Before You Start
+- Read the `README.md` carefully
+- Check existing issues before creating a new one
+- Maintain respectful and professional communication
 
-## Bug Reports
+---
 
-If you find a bug that is not already tracked:
+## 🧩 Issue Guidelines
 
-1. Confirm it’s reproducible.
-2. Create a clear, minimal reproduction.
-3. Open a bug issue with steps to reproduce and expected vs. actual behavior.
+### 🔹 Issue Assignment
+- A contributor can be assigned **a maximum of 3 issues at a time**
+- Contributors must work **only on already created issues**
+- Do not start working on an issue unless it is **assigned to you**
 
-## Issue Workflow
+### 🔹 Creating Issues
+- **Very beginner contributors** may create issues related to:
+  - Bugs
+  - UI/UX issues
+  - Documentation improvements
+- Feature requests or major changes must be **discussed with the project admin** before creating an issue
+- Issues should include:
+  - A clear and descriptive title
+  - Detailed explanation
+  - Steps to reproduce (for bugs), if applicable
 
-1. Find an open issue that matches your skills.
-2. Comment: “I’d like to work on this. Please assign it to me.”
-3. After assignment, start work.
-4. Keep updates in the issue thread if needed.
+---
 
-## Pull Requests
+## 🔁 Pull Request (PR) Guidelines
+- Every PR must be linked to an **assigned issue**
+- Follow the project’s coding standards and folder structure
+- Keep PRs focused — **one issue per PR**
+- Add screenshots or screen recordings for UI-related changes
+- Use clear and meaningful commit messages
 
-- Reference the issue in your PR description (e.g., `Fixes #123`).
-- Keep PRs focused and minimal.
-- Avoid unrelated refactors or formatting changes.
+---
 
-Thank you for helping keep OS-Pins clean and focused.
+## ⏳ Inactivity Policy
+- If a contributor **does not respond or provide updates within 3 days** on an assigned issue or PR:
+  - The issue may be reassigned to another contributor
+  - The PR may be closed due to inactivity
+- If more time is needed, comment on the issue or PR to avoid reassignment
+
+---
+
+## 🧠 Code of Conduct
+- Be respectful and inclusive
+- Spam PRs or plagiarized/copied code will be **closed immediately**
+- The project admin’s decision will be **final** in case of conflicts
+
+---
+
+## 🚀 Getting Started
+1. Fork the repository
+2. Create a new branch  
+   - `feature/issue-name`  
+   - `fix/issue-name`
+3. Make your changes
+4. Push the branch to your fork
+5. Open a Pull Request linked to the assigned issue
+
+---
+
+Thanks for contributing to **OS Pins** 💙  
+Happy coding! 🚀
