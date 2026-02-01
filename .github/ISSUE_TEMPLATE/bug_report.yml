@@ -1,60 +1,54 @@
-name: Bug report
-description: Report a problem so we can fix it
-title: "[Bug]: "
-labels:
-  - bug
+name: Bug report 🐞
+description: File a bug report
+title: "🐞[Bug]: "
+labels: 'bug'
 body:
-  - type: markdown
+  - type: checkboxes
+    id: existing-issue
     attributes:
-      value: |
-        Thanks for taking the time to report a bug.
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+          required: true
   - type: textarea
-    id: summary
+    id: what-happened
     attributes:
-      label: Summary
-      description: A clear and concise description of what the bug is.
-      placeholder: What happened?
+      label: Describe the bug
+      description: A concise description of what you are experiencing.
+      placeholder: Tell us what you see!
     validations:
       required: true
   - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      description: Steps to reproduce the behavior.
-      placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
-    validations:
-      required: true
-  - type: textarea
-    id: expected
+    id: expected-behaviour
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
     validations:
       required: true
   - type: textarea
-    id: actual
+    id: screenshots
     attributes:
-      label: Actual behavior
-      description: What actually happened instead.
-    validations:
-      required: true
-  - type: input
-    id: environment
+      label: Add ScreenShots
+      description: Add sufficient ScreenShots to explain your issue.
+  - type: dropdown
+    id: browsers
     attributes:
-      label: Environment
-      description: OS, browser, and version (if relevant).
-      placeholder: Windows 11, Chrome 121
-    validations:
-      required: false
-  - type: textarea
-    id: logs
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: checkboxes
+    id: terms
     attributes:
-      label: Logs and screenshots
-      description: Add any relevant logs or screenshots.
-      placeholder: Paste logs or attach screenshots
-    validations:
-      required: false
+      label: Record
+      options:
+        - label: "I have read the Contributing Guidelines"
+          required: true
+        - label: "Are you an Apertre 3.0 contributor"
+          required: false
+        - label: "I want to work on this issue"
+          required: false
