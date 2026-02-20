@@ -65,7 +65,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Have questions about OS Pins? Want to contribute or collaborate?
-            We'd love to hear from you.
+                We&apos;d love to hear from you.
           </p>
         </div>
 
